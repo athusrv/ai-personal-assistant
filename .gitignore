@@ -1,0 +1,32 @@
+# Individual state, at any depth
+profile.md
+profile.local.*
+profiles/
+private/
+feedback/
+transcripts/
+notes/
+reports/
+state/
+automations.local.*
+*.private.*
+*.secret
+# Credentials and environments
+.env
+.env.*
+!.env.example
+credentials*
+secrets*
+*.pem
+*.key
+.venv/
+__pycache__/
+# Local tooling and exported source material
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.zip
+*.pdf
+*.docx
+*.xlsx

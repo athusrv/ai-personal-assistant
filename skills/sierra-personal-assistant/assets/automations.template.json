@@ -1,0 +1,61 @@
+{
+  "format": "sierra-personal-assistant-routine-plan",
+  "version": "0.1.0",
+  "notice": "Planning template only; not a scheduler API payload. Never activates tasks. Copy outside repositories before filling. Recurrences are examples until confirmed.",
+  "profile_context_location": null,
+  "approved_source_scope": [],
+  "quiet_hours": null,
+  "private_state_location": null,
+  "retention": null,
+  "shared_actions_allowed": false,
+  "routines": [
+    {
+      "id": "morning",
+      "name": "Morning preparation",
+      "enabled": false,
+      "status": "proposed",
+      "example_rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=9;BYMINUTE=30;BYSECOND=0",
+      "local_time_confirmed": false,
+      "timezone": null,
+      "delivery_destination": null,
+      "scheduler_task_id": null,
+      "activation_verified_at": null,
+      "next_run": null,
+      "delivery_test_status": "not_tested",
+      "prompt_kind": "morning",
+      "resolved_prompt": null
+    },
+    {
+      "id": "evening",
+      "name": "End-of-day review",
+      "enabled": false,
+      "status": "proposed",
+      "example_rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=17;BYMINUTE=0;BYSECOND=0",
+      "local_time_confirmed": false,
+      "timezone": null,
+      "delivery_destination": null,
+      "scheduler_task_id": null,
+      "activation_verified_at": null,
+      "next_run": null,
+      "delivery_test_status": "not_tested",
+      "prompt_kind": "evening",
+      "resolved_prompt": null
+    },
+    {
+      "id": "weekly",
+      "name": "Weekly reflection",
+      "enabled": false,
+      "status": "proposed",
+      "example_rrule": "FREQ=WEEKLY;BYDAY=FR;BYHOUR=16;BYMINUTE=0;BYSECOND=0",
+      "local_time_confirmed": false,
+      "timezone": null,
+      "delivery_destination": null,
+      "scheduler_task_id": null,
+      "activation_verified_at": null,
+      "next_run": null,
+      "delivery_test_status": "not_tested",
+      "prompt_kind": "weekly",
+      "resolved_prompt": null
+    }
+  ]
+}

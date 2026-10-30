@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sierra Personal AI Assistant"
+  short_description: "Growing-edge coaching and proactive check-ins"
+  default_prompt: "Use $sierra-personal-assistant to set up my growing edge from a goal or written feedback and suggest private proactive routines."
